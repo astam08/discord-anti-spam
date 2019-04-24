@@ -1,5 +1,6 @@
 const Discord = require("discord.js"); // Requiring Library just for the sick of being there
 const antispam = require ("discord-anti-spam");
+const client = new Discord.Client();
 
 var authors = [];
 var warned = [];
