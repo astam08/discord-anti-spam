@@ -1,5 +1,6 @@
 const Discord = require("discord.js"); // Requiring Library just for the sick of being there
-
+const token = require ("./token.json");
+const bot = new Discord.Client();
 var authors = [];
 var warned = [];
 var banned = [];
@@ -122,3 +123,4 @@ module.exports = async (client, options) => {
     }
   });
 }
+bot.login(token.token);
