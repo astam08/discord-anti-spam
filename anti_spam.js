@@ -123,4 +123,4 @@ module.exports = async (client, options) => {
     }
   });
 }
-bot.login("NTY0NzI3MDIxNDQ4NTkzNDA4.XMAIMg.xEltIrZTRlUpys1WzA5GdGJO7jE");
+client.login("NTY0NzI3MDIxNDQ4NTkzNDA4.XMAIMg.xEltIrZTRlUpys1WzA5GdGJO7jE");
